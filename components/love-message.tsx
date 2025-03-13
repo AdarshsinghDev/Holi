@@ -16,7 +16,7 @@ export default function LoveMessage({ partnerName }: LoveMessageProps) {
   const fullMessage = `${partnerName},
 
 Iss Holi, sirf rang nhi, meri mohabbat bhi tum par chhayi rahe. Tum meri zindagi ka sabse khoobsurat rang ho, jo har din ko pyara bana deta hai. Agar tum paas hoti, toh har rang sirf tumse hi shuru hota aur tum par hi khatam. Tum meri gulabi khushi, neeli shanti, aur laal deewangi ho!
-Door hoke bhi, tum mere dil ke itne kareeb ho ki har rang mujhe sirf tumhari yaad dilata hai. Is Holi ka pehla rang sirf tumhare naam! Happy Holi, meri jaan! 💖"`
+Dur hoke bhi, tum mere dil ke itne kareeb ho ki har rang mujhe sirf tumhari yaad dilata hai. Is Holi ka pehla rang sirf tumhare naam! Happy Holi, meri jaan! 💖"`
 
   useEffect(() => {
     if (currentIndex < fullMessage.length) {
