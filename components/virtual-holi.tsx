@@ -45,7 +45,7 @@ export default function VirtualHoli({ partnerName }: VirtualHoliProps) {
 
     // Draw background image (optional)
     const img = new Image()
-    img.src = "/placeholder.svg?height=600&width=800" // Replace with your image
+    img.src = "/myimg.jpg"; // Replace with your image
     img.crossOrigin = "anonymous"
     img.onload = () => {
       ctx.drawImage(img, 0, 0, canvas.width, canvas.height)
